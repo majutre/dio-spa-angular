@@ -1,0 +1,30 @@
+mat-grid-tile {
+  background: var(--cinza-claro);
+  border-radius: 8px;
+}
+
+.to-center {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.innerCard {
+    height: 20vh;
+    width: 30vh;
+    cursor: pointer;
+    background: var(--branco);
+}
+
+.card-title{
+  margin-top: 25%
+}
+
+.material-icons{
+  font-size: 108px;
+  transform: translate(-50%, -50%);
+  color: var(--cinza-escuro);
+}
+

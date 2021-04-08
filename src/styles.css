@@ -1,4 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons'); 
+
+/* https://colorhunt.co/palette/1649 */
+:root {
+    --branco: #f0f5f9;
+    --cinza-claro: #c9d6df;
+    --cinza-escuro: #52616b;
+    --preto: #1e2022;
+}
+
 *{
     box-sizing: border-box;
 }

@@ -1,0 +1,50 @@
+<mat-card>
+  <mat-grid-list cols="2" rowHeight="2:1">
+
+    <mat-grid-tile>
+      <mat-card class="innerCard" [routerLink]="'/cadastro/cliente'">
+        <mat-card-title>
+            <span class="material-icons to-center">
+              person_add
+            </span>
+        </mat-card-title>
+        <mat-card-content class="to-center card-title">Cadastrar Cliente</mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-card class="innerCard" [routerLink]="'/cadastro/processo'">
+          <mat-card-title>
+              <span class="material-icons to-center">
+                post_add
+              </span>
+          </mat-card-title>
+        <mat-card-content class="to-center card-title">Cadastrar Processo</mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-card class="innerCard" [routerLink]="'/agenda'">
+          <mat-card-title>
+              <span class="material-icons to-center">
+                event
+              </span>
+          </mat-card-title>
+        <mat-card-content class="to-center card-title">Agendar Prazos</mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-card class="innerCard" [routerLink]="'/casos'">
+          <mat-card-title>
+              <span class="material-icons to-center">
+                list_alt
+              </span>
+          </mat-card-title>
+        <mat-card-content class="to-center card-title">Ver Casos</mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+
+  </mat-grid-list>
+</mat-card>
