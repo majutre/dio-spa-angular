@@ -1,4 +1,4 @@
-<mat-card>
+<mat-card class="outerCard">
   <mat-grid-list cols="2" rowHeight="2:1">
 
     <mat-grid-tile>
@@ -13,7 +13,7 @@
     </mat-grid-tile>
 
     <mat-grid-tile>
-      <mat-card class="innerCard" [routerLink]="'/cadastro/processo'">
+      <mat-card class="innerCard disabled" [routerLink]="'/cadastro/processo'">
           <mat-card-title>
               <span class="material-icons to-center">
                 post_add
@@ -35,7 +35,7 @@
     </mat-grid-tile>
 
     <mat-grid-tile>
-      <mat-card class="innerCard" [routerLink]="'/casos'">
+      <mat-card class="innerCard disabled" [routerLink]="'/casos'">
           <mat-card-title>
               <span class="material-icons to-center">
                 list_alt

@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons'); 
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
-/* https://colorhunt.co/palette/1649 */
+/* tema: https://colorhunt.co/palette/1649 */
 :root {
     --branco: #f0f5f9;
     --cinza-claro: #c9d6df;

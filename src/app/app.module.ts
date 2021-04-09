@@ -10,9 +10,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './shared/home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { CadastroProcessoComponent } from './components/cadastro-processo/cadastro-processo.component';
-import { CadastroClienteComponent } from './components/cadastro-cliente/cadastro-cliente.component';
+import { CadastroClienteComponent } from './components/cliente/cadastro-cliente/cadastro-cliente.component';
 import { AgendaComponent } from './components/agenda/agenda.component';
 import { CasosComponent } from './components/casos/casos.component';
+import { ClienteComponent } from './components/cliente/cliente.component';
+import { TabelaClienteComponent } from './components/cliente/tabela-cliente/tabela-cliente.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { CasosComponent } from './components/casos/casos.component';
     CadastroProcessoComponent,
     CadastroClienteComponent,
     AgendaComponent,
-    CasosComponent
+    CasosComponent,
+    ClienteComponent,
+    TabelaClienteComponent,
   ],
   imports: [
     BrowserModule,

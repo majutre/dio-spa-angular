@@ -10,8 +10,8 @@ export class AgendaComponent implements OnInit {
 
   events: string[] = [];
 
-  addEvent(type: string, event: MatDatepickerInputEvent<Date>) {
-    this.events.push(`${type}: ${event.value}`);
+  addEvent(text: string, event: MatDatepickerInputEvent<Date>) {
+    this.events.push(`${text} ${event.value.toLocaleDateString()}`);
   }
 
   constructor() { }

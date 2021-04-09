@@ -1,0 +1,53 @@
+<mat-card-title>CADASTRO DE CLIENTES</mat-card-title>
+
+<hr>
+
+<mat-card>
+  <form class="example-form" 
+    [formGroup]="cadastroCliente" 
+    (ngSubmit)="onSubmit()" 
+    (ngReset)="onReset()">
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Nome Completo</mat-label>
+      <input 
+        type="text" 
+        matInput 
+        name="nome" 
+        [formGroup]="cadastroCliente" 
+        formControlName="nome">
+      <mat-error *ngIf="cadastroCliente.hasError('required')">
+        O nome é obrigatório
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Nacionalidade</mat-label>
+      <input 
+        type="text" 
+        matInput 
+        [formGroup]="cadastroCliente" 
+        formControlName="nacionalidade">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>CPF</mat-label>
+      <input 
+        type="text" 
+        matInput 
+        [formGroup]="cadastroCliente" 
+        formControlName="cpf">
+      <mat-error *ngIf="cadastroCliente.hasError('required')">
+        O CPF é obrigatório
+      </mat-error>
+    </mat-form-field>
+
+    <mat-card-actions>
+      <button type="submit" color="primary" mat-raised-button>Salvar</button>
+      <button type="reset" color="warn" mat-raised-button>Limpar</button>
+    </mat-card-actions>
+
+  </form>
+</mat-card>
+
+
