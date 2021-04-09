@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './shared/home/home.component';
 import { CadastroProcessoComponent } from './components/cadastro-processo/cadastro-processo.component';
-import { CadastroClienteComponent } from './components/cliente/cadastro-cliente/cadastro-cliente.component';
 import { CasosComponent } from './components/casos/casos.component';
 import { AgendaComponent } from './components/agenda/agenda.component';
 import { ClienteComponent } from './components/cliente/cliente.component';
